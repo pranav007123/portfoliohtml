@@ -1,0 +1,178 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  header {
+    margin-bottom: 80px;
+  }
+
+  .navbar {
+    background-color: #343a40;
+  }
+
+  .navbar-brand i {
+    margin-right: 10px;
+  }
+
+  .intro {
+    background: linear-gradient(45deg, #2193b0, #6dd5ed);
+    color: white;
+    padding: 50px 0;
+  }
+
+  .intro h2 {
+    font-size: 2.5rem;
+  }
+
+  .intro p {
+    font-size: 1.1rem;
+  }
+
+  .intro img {
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+
+  .aim {
+    background-color: #ffffff;
+    padding: 50px 0;
+  }
+
+  .aim h2,
+  .education h2 {
+    margin-bottom: 30px;
+  }
+
+  .accordion-button {
+    background-color: #2193b0;
+    color: white;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #6dd5ed;
+  }
+
+  .accordion-body {
+    background-color: #f8f9fa;
+  }
+
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+  }
+
+  footer a {
+    color: #6dd5ed;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .project-item img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  .project-item {
+    margin-bottom: 30px;
+  }
+
+  .contact-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-form button {
+    background-color: #2193b0;
+    color: white;
+    border: none;
+  }
+
+  .contact-form button:hover {
+    background-color: #6dd5ed;
+  }
+
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-img-top {
+    border-bottom: 2px solid #2193b0;
+  }
+  
+  .card-body {
+    background-color: #ffffff;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  a.text-decoration-none {
+    color: inherit;
+    text-decoration: none;
+  }
+  .custom-modal-dialog {
+    max-width: 80%; /* Adjust the width as needed */
+  }
+  
+  .custom-modal-content {
+    height: 80vh; /* Adjust the height as needed */
+  }
+  
+    /* Mobile devices */
+    @media (max-width: 576px) {
+        .custom-modal-dialog {
+          max-width: 95%; /* Wider for smaller screens */
+        }
+      }
+    
+      /* Tablets and smaller laptops */
+      @media (min-width: 576px) and (max-width: 992px) {
+        .custom-modal-dialog {
+          max-width: 85%; /* Adjust as needed */
+        }
+      }
+    
+      /* Large screens (e.g., desktops) */
+      @media (min-width: 992px) {
+        .custom-modal-dialog {
+          max-width: 70%; /* Default for larger screens */
+        }
+      }
+    
+      /* Ensure modal content is responsive */
+      .custom-modal-content {
+        height: auto; /* Adjust height to content */
+      }
+
+
+     
+    
